@@ -1,0 +1,55 @@
+{
+  "name": "mcfearsome cc-marketplace",
+  "owner": {
+    "name": "mcfearsome"
+  },
+  "plugins": [
+    {
+      "id": "mcp-executor",
+      "name": "MCP Code Executor Skill",
+      "source": {
+        "source": "github",
+        "repo": "mcfearsome/cc-mcp-executor-skill"
+      },
+      "description": "Efficient multi-tool MCP workflows via subagent architecture",
+      "version": "2.0.0",
+      "author": {
+        "name": "mcfearsome"
+      },
+      "repo": "https://github.com/mcfearsome/cc-mcp-executor-skill.git",
+      "type": "skill"
+    },
+    {
+      "name": "fork-yeah",
+      "description": "Fork management for Claude Code - branch conversation paths and try different approaches simultaneously using git worktrees",
+      "version": "0.1.0",
+      "author": {
+        "name": "mcfearsome"
+      },
+      "type": "command",
+      "source": {
+        "source": "github",
+        "repo": "mcfearsome/fork-yeah"
+      },
+      "homepage": "https://github.com/mcfearsome/fork-yeah",
+      "repository": "https://github.com/mcfearsome/fork-yeah.git",
+      "license": "MIT",
+      "keywords": [
+        "git",
+        "worktree",
+        "branching",
+        "fork",
+        "conversation",
+        "workflow",
+        "productivity"
+      ],
+      "category": "development-tools",
+      "tags": [
+        "git",
+        "workflow",
+        "productivity",
+        "branching"
+      ]
+    }
+  ]
+}
