@@ -1,12 +1,11 @@
 {
-  "name": "mcfearsome cc-marketplace",
+  "name": "mcfearsome-cc-marketplace",
   "owner": {
     "name": "mcfearsome"
   },
   "plugins": [
     {
-      "id": "mcp-executor",
-      "name": "MCP Code Executor Skill",
+      "name": "mcp-code-executor-skill",
       "source": {
         "source": "github",
         "repo": "mcfearsome/cc-mcp-executor-skill"
@@ -15,9 +14,7 @@
       "version": "2.0.0",
       "author": {
         "name": "mcfearsome"
-      },
-      "repo": "https://github.com/mcfearsome/cc-mcp-executor-skill.git",
-      "type": "skill"
+      }
     },
     {
       "name": "fork-yeah",
@@ -26,7 +23,6 @@
       "author": {
         "name": "mcfearsome"
       },
-      "type": "command",
       "source": {
         "source": "github",
         "repo": "mcfearsome/fork-yeah"
@@ -58,7 +54,6 @@
       "author": {
         "name": "mcfearsome"
       },
-      "type": "command",
       "source": {
         "source": "github",
         "repo": "mcfearsome/claude-logbook"
