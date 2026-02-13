@@ -50,6 +50,39 @@
         "productivity",
         "branching"
       ]
+    },
+    {
+      "name": "claude-logbook",
+      "description": "Session lifecycle management and work tracking for Claude Code. Automates session start/end protocols, maintains structured tracking files (features, history, rules), and ensures continuity across sessions.",
+      "version": "0.1.0",
+      "author": {
+        "name": "mcfearsome"
+      },
+      "type": "command",
+      "source": {
+        "source": "github",
+        "repo": "mcfearsome/claude-logbook"
+      },
+      "homepage": "https://github.com/mcfearsome/claude-logbook",
+      "repository": "https://github.com/mcfearsome/claude-logbook.git",
+      "license": "MIT",
+      "keywords": [
+        "session",
+        "tracking",
+        "logbook",
+        "features",
+        "backlog",
+        "roadmap",
+        "workspace",
+        "productivity"
+      ],
+      "category": "development-tools",
+      "tags": [
+        "session-management",
+        "tracking",
+        "productivity",
+        "workspace"
+      ]
     }
   ]
 }
