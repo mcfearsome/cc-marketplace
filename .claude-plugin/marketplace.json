@@ -68,6 +68,25 @@
       ],
       "category": "development-tools",
       "tags": ["session-management", "tracking", "productivity", "workspace"]
+    },
+    {
+      "name": "activity-feed",
+      "description": "Live pane of everything the agent does: a radial graph of prompts, model requests, tool calls, memory, subagents, skills, MCP calls, hooks and permission checks, with per-turn token counts.",
+      "version": "0.1.0",
+      "author": {
+        "name": "mcfearsome"
+      },
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mcfearsome/claude-mods.git",
+        "path": "activity-feed"
+      },
+      "homepage": "https://github.com/mcfearsome/claude-mods/tree/main/activity-feed",
+      "repository": "https://github.com/mcfearsome/claude-mods.git",
+      "license": "MIT",
+      "keywords": ["activity", "observability", "graph", "pane", "tokens", "subagents", "mod"],
+      "category": "development-tools",
+      "tags": ["observability", "visualization", "productivity"]
     }
   ]
 }
