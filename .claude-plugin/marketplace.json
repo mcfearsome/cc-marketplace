@@ -72,7 +72,7 @@
     {
       "name": "activity-feed",
       "description": "Live pane of everything the agent does: a radial graph of prompts, model requests, tool calls, memory, subagents, skills, MCP calls, hooks and permission checks, with per-turn token counts.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "mcfearsome"
       },
